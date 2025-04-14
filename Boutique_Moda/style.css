@@ -1,33 +1,62 @@
 body {
-    background-color: #ccc;
+    background-color: #710673;
     font-size: 18px;
     /* font-family: sans-serif; */
     width: 1000px;
     height: auto;
 }
+
 .img001_BM{
     background-image: url(Imagem/img001_BM.jpg);
+    /* background-size: 1024px; */
     width: 1024px;
     height: 488px;
+    background-repeat: no-repeat;
+    background-position: center left;
 }
+
 .img002_BM{
     background-image: url(Imagem/img002_BM.jpg);
     width: 250px;
     height: 192px;
+    margin: 20px;
+    border: 1rem solid whitesmoke;
+    background-repeat: no-repeat;
 }
+
 .img003_BM{
     background-image: url(Imagem/img003_BM.jpg);
     width: 250px;
     height: 192px;
+    margin: 20px;
+    border: 1rem solid whitesmoke;
+    background-repeat: no-repeat;
 }
+
 .img004_BM{
     background-image: url(Imagem/img004_BM.jpg);
+    /* background-size: 250px; */
     width: 250px;
     height: 192px;
+    margin: 20px;
+    border: 1rem solid whitesmoke;
+    background-repeat: no-repeat;
 }
 .img-left{
     float: left;
 }
+
 .img-right{
     float: right;
+}
+.hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+    /* line-height: 1.2; */
+    text-align: justify;
 }
