@@ -1,23 +1,81 @@
 
 
 .flexbox {
-    background-color: white;
     border: 5px solid red;
     max-width: 1000px;
-    height: 328px;
+    min-width: 200px;
+    
     display: flex;
     margin-bottom: 16px;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    /* flex-direction: row-reverse; */
 }
 
 .flexbox div {
     background-color: white;
     width: 220px;
     height: 270px;
+    min-width: 100px;
     justify-content: space-between;
     margin: 25px 15px 15px;
     /* padding: 15px 15px 15px 15px; */
     /* border: 5px solid orange; */
+}
+
+.flex-container01 {
+    
+
+}
+.div .img001_BM {
+    
+
+}
+
+.flex-container02 {
+    background-color: white;
+    max-height: 350px;
+    max-width: 1000px;
+    min-width: 200px;
+    
+}
+
+.flex-container02 div {
+    width: 200px;
+    max-height: 100px;
+    min-width: 100px;
+}
+
+.txtcenter {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.justified {
+    font-size: 20px;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: none;
+    margin: 10px 50px 20px;
+}
+
+.flex-container03 {
+    background-color: white;
+    max-height: 650px;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-start;
+    flex-flow: row wrap;
+}
+
+
+.flex-container04 {
+    color: white;
+    background-color: #003d52;
+
 }
 
 .img002_MB {
@@ -36,7 +94,7 @@ margin-top: 50px;
     margin-top: 228px;
 }
 
-.img001_BM {
+.section {
     background-image: url(Imagem/img001_BM.jpg);
     background-size: 1024px;
     width: 1024px;
