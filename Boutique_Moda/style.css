@@ -1,11 +1,94 @@
+body {
+    background-color: #ccc;
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.hero {    
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    flex-flow: row wrap;
+    /* flex-direction: row-reverse; */
+}
+
+.header__hero {
+    background-color: black;
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.header__logo {
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-decoration:overline underline;
+    text-shadow: 3px 2px 1px black;
+    margin-left: 16px;   
+}
+
+.header__nav {
+    margin: 0 25px;
+}
+
+.header__nav .unordered-list {
+    display: flex;
+    font-size: 18px;
+    list-style-type: none;
+    gap: 25px;
+    margin: 0 25px;
+}
+
+.header__nav a {
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    text-decoration: none;
+    text-transform: none;
+    padding: 14px;
+}
+
+.header__nav a:hover {
+    color: yellow;
+}
+
+.header__img {
+    background-image: url(Imagem/img001_BM.jpg);
+    background-size: cover;
+    width: 1000px;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-position: center left;    
+}
+
+.header__title {
+    color: white;
+    font-size: 62px;
+    text-transform:none;
+    text-align: right;
+    text-shadow: 2px 2px 2px black;
+    width: 300px;
+    height: 290px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: 55px;
+    margin: 150px 0 0 630px;
+        
+}
 
 
 .flexbox {
-    border: 5px solid red;
     max-width: 1000px;
     min-width: 200px;
-    
     display: flex;
+    justify-content: space-between;
     margin-bottom: 16px;
     flex-flow: row wrap;
     /* flex-direction: row-reverse; */
@@ -22,21 +105,11 @@
     /* border: 5px solid orange; */
 }
 
-.flex-container01 {
-    
-
-}
-.div .img001_BM {
-    
-
-}
-
 .flex-container02 {
     background-color: white;
     max-height: 350px;
     max-width: 1000px;
-    min-width: 200px;
-    
+    min-width: 200px;    
 }
 
 .flex-container02 div {
@@ -75,7 +148,6 @@
 .flex-container04 {
     color: white;
     background-color: #003d52;
-
 }
 
 .img002_MB {
@@ -92,15 +164,6 @@ margin-top: 50px;
     font-size: 18px;
     text-align: justify;
     margin-top: 228px;
-}
-
-.section {
-    background-image: url(Imagem/img001_BM.jpg);
-    background-size: 1024px;
-    width: 1024px;
-    height: 488px;
-    background-repeat: no-repeat;
-    background-position: center left;    
 }
 
 .img002_BM {
