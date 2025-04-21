@@ -46,7 +46,6 @@ body {
     margin: 0 25px;
 }
 
-
 .header__nav a {
     color: white;
     width: 100px;
@@ -63,6 +62,7 @@ body {
     background-color: yellow;
     color: black;
 }
+
 
 /* a.header__nav--active{
     background-color: yellow;
@@ -90,10 +90,8 @@ body {
     letter-spacing: normal;
     word-spacing: normal;
     line-height: 55px;
-    margin: 150px 0 0 630px;
-        
+    margin: 150px 0 0 630px;        
 }
-
 
 .flexbox {
     max-width: 1000px;
@@ -111,44 +109,38 @@ body {
     height: 270px;
     min-width: 100px;
     justify-content: space-between;
-    margin: 25px 15px 15px;
-    /* padding: 15px 15px 15px 15px; */
-    /* border: 5px solid orange; */
-}
-
-.flexbox div {
-    background-color: white;
-    width: 220px;
-    height: 270px;
-    min-width: 100px;
-    justify-content: space-between;
-    margin: 25px 15px 15px;
-    /* padding: 15px 15px 15px 15px; */
-    /* border: 5px solid orange; */
+    margin: 15px;  
 }
 
 .flex-container02 {
     background-color: white;
     max-height: 350px;
     max-width: 1000px;
-    min-width: 200px;    
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-container02 div {
+    display: block;
     width: 200px;
     max-height: 100px;
     min-width: 100px;
 }
 
 .txtcenter {
+    display: block;
     font-size: 30px;
     text-align: center;
+    align-items: center;
     text-decoration: none;
     text-transform: capitalize;
     text-shadow: 1px 1px 1px grey;
 }
 
 .justified {
+    display:inline-block
     font-size: 20px;
     text-align: justify;
     text-decoration: none;
@@ -166,50 +158,48 @@ body {
     flex-flow: row wrap;
 }
 
-
 .flex-container04 {
     color: white;
     background-color: #003d52;
-}
-
-.img002_MB {
-margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flexbox div h3 {
     font-size: 20px;
     text-align: center;
-    margin: -25px;    
+    margin-top: 195px;
 }
 
 .flexbox div p {
     font-size: 18px;
     text-align: justify;
-    margin-top: 228px;
+    margin-top: -18px;
 }
 
 .img002_BM {
     background-image: url(Imagem/img002_BM.jpg);
     background-repeat: no-repeat;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .img003_BM {
     background-image: url(Imagem/img003_BM.jpg);
     background-repeat: no-repeat;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .img004_BM {
     background-image: url(Imagem/img004_BM.jpg);
     background-repeat: no-repeat;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .img005_BM {
     background-image: url(Imagem/img005_BM.jpg);
     background-repeat: no-repeat;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .footer {
